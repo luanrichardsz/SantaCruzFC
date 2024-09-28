@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, #FF0000, #FFFFFF, #000000);
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+#centralizar {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 90%;
+}
+
+#img {
+    max-width: 400px;
+    height: auto;
+    margin-right: 50px;
+}
+
+h2 {
+    max-width: 900px;
+    font-size: 18px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
